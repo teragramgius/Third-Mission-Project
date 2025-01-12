@@ -5,6 +5,33 @@ This project explores the strategic narratives of Italian universities regarding
 
 ## Subdirectories
 
+Third-Mission-Project/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── docs/
+│   ├── project_overview.md
+│   ├── choices_and_references.md
+│   └── open_science_analysis.md  # Newly added
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── visualizations/
+├── notebooks/
+│   ├── literature_review.ipynb
+│   ├── network_analysis.ipynb
+│   ├── open_science_analysis.ipynb  # Newly added for dummy variable analysis
+├── src/
+│   ├── collect_data.py
+│   ├── preprocess_data.py  # Updated to include dummy variable creation
+│   └── network_analysis.py
+├── requirements.txt
+└── results/
+    ├── visualizations/
+    ├── open_science_reports/
+    └── third_mission_reports/
+```
+
 1. **data:** Contains raw, processed, and visualization-ready datasets.
    - `raw/`: Initial collected data.
    - `processed/`: Preprocessed data ready for analysis.
