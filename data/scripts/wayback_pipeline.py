@@ -106,8 +106,8 @@ def fetch_and_save_snapshots(universities, from_year, to_year, output_file):
 
 
 #variables
-from_year = 2000
-to_year = 2024
+from_year = 2020
+to_year = 2025
 output_file = "data/raw/wayback_snapshots.json"
     
 
@@ -116,4 +116,4 @@ fetch_and_save_snapshots(universities, from_year, to_year, output_file)
 
 
 
-
+#then parse subpages
