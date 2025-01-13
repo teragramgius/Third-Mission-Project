@@ -73,7 +73,7 @@ universities_data = [
     
 
 # Path to save the JSON file
-output_path = "data/raw/italian_universities_open_science.json" ;
+output_path = "data/raw/main_pages.json" ;
 
 # Save data as JSON file
 with open(output_path, "w", encoding="utf-8") as json_file:
@@ -89,5 +89,5 @@ def export_dummy_data(data, file_name):
     with open(file_name, 'w', encoding='utf-8') as json_file:
         json.dump(dummy_data, json_file, ensure_ascii=False, indent=4)
 
-# Example usage
-export_dummy_data(universities_data, "italian_universities_dummy.json")
+# usage
+export_dummy_data(universities_data, "dummy.json")
