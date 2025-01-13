@@ -1,0 +1,270 @@
+[
+    {
+        "name": "Università degli Studi 'Gabriele d'Annunzio'",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi dell'Aquila",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Teramo",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi della Basilicata",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi Magna Græcia di Catanzaro",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università della Calabria",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi 'Mediterranea' di Reggio Calabria",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Napoli 'Federico II'",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Scuola Superiore Meridionale",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Napoli 'L'Orientale'",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Napoli 'Parthenope'",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi della Campania Luigi Vanvitelli",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Salerno",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi del Sannio",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Alma Mater Studiorum - Università di Bologna",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Ferrara",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Modena e Reggio Emilia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Parma",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Trieste",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Udine",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Cassino e del Lazio Meridionale",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Roma 'Foro Italico'",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Roma 'La Sapienza'",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Roma Tor Vergata",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi Roma Tre",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi della Tuscia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Genova",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Bergamo",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Brescia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Politecnico di Milano",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Milano",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Milano-Bicocca",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Istituto Universitario di Studi Superiori",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Pavia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi dell'Insubria",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università Politecnica delle Marche",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Camerino",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Macerata",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Urbino",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi del Molise",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi del Piemonte Orientale 'Amedeo Avogadro'",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Torino",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Politecnico di Torino",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Politecnico di Bari",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Bari",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Foggia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università del Salento",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Cagliari",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Sassari",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Catania",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Messina",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Palermo",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Firenze",
+        "has_open_science_page": true
+    },
+    {
+        "name": "IMT - Scuola IMT Alti Studi Lucca",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Scuola Normale Superiore",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Scuola superiore di studi universitari e di perfezionamento Sant'Anna",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università di Pisa",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Siena",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università per stranieri di Siena",
+        "has_open_science_page": false
+    },
+    {
+        "name": "Università degli Studi di Trento",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Perugia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università per stranieri di Perugia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Padova",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università Ca' Foscari Venezia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università Iuav di Venezia",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università degli Studi di Verona",
+        "has_open_science_page": true
+    },
+    {
+        "name": "Università della Valle d'Aosta",
+        "has_open_science_page": true
+    }
+]

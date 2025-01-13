@@ -78,3 +78,16 @@ output_path = "data/raw/italian_universities_open_science.json" ;
 # Save data as JSON file
 with open(output_path, "w", encoding="utf-8") as json_file:
         json.dump(universities_data, json_file, ensure_ascii=False, indent=4)
+
+
+# Function to export dummy data
+def export_dummy_data(data, file_name):
+    dummy_data = [
+        {"name": university["name"], "has_open_science_page": bool(university["open_science_url"])}
+        for university in data
+    ]
+    with open(file_name, 'w', encoding='utf-8') as json_file:
+        json.dump(dummy_data, json_file, ensure_ascii=False, indent=4)
+
+# Example usage
+export_dummy_data(universities_data, "italian_universities_dummy.json")
