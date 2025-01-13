@@ -1,4 +1,4 @@
-#pipeline initial functions
+#libraries import
 import requests
 import json
 import os
@@ -87,7 +87,7 @@ def fetch_wayback_snapshots(url, from_year, to_year):
         if snapshot:
             snapshots.append({
                 "timestamp": snapshot.get("timestamp"),
-                "archived_url": snapshot.get("url"),
+                "archived_url": snapshot.get("open_science_url"),
                 "original_url": url
             })
     return snapshots
@@ -96,7 +96,7 @@ def fetch_wayback_snapshots(url, from_year, to_year):
 def fetch_and_save_snapshots(universities, from_year, to_year, output_file):
     all_snapshots = []
     for uni in universities:
-        snapshots = fetch_wayback_snapshots(uni['url'], from_year, to_year)
+        snapshots = fetch_wayback_snapshots(uni['open_science_url'], from_year, to_year)
         for snapshot in snapshots:
             snapshot["university"] = uni["name"]
             all_snapshots.append(snapshot)
