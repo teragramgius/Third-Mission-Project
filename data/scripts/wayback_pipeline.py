@@ -1,10 +1,7 @@
 #pipeline initial functions
-
 import requests
 import json
 import os
-
-
 
 #list of universities
 universities = [
@@ -77,3 +74,46 @@ universities = [
     {"name": "Università della Valle d'Aosta", "open_science_url": "https://univda.iris.cineca.it/sr/cineca/files/Regolamento_di_Ateneo_Open_Access_Univda.pdf"}
 ]
     
+import requests
+import json
+
+# Function to fetch Wayback Machine snapshots
+def fetch_wayback_snapshots(url, from_year, to_year):
+    snapshots = []
+    for year in range(from_year, to_year + 1):
+        api_url = f"http://archive.org/wayback/available?url={url}&timestamp={year}0101"
+        response = requests.get(api_url).json()
+        snapshot = response.get('archived_snapshots', {}).get('closest')
+        if snapshot:
+            snapshots.append({
+                "timestamp": snapshot.get("timestamp"),
+                "archived_url": snapshot.get("url"),
+                "original_url": url
+            })
+    return snapshots
+
+# Main function to fetch snapshots and save them to a JSON file
+def fetch_and_save_snapshots(universities, from_year, to_year, output_file):
+    all_snapshots = []
+    for uni in universities:
+        snapshots = fetch_wayback_snapshots(uni['url'], from_year, to_year)
+        for snapshot in snapshots:
+            snapshot["university"] = uni["name"]
+            all_snapshots.append(snapshot)
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(all_snapshots, f, ensure_ascii=False, indent=4)
+    print(f"Wayback snapshots successfully saved to {output_file}")
+
+
+#variables
+from_year = 2000
+to_year = 2024
+output_file = "data/raw/wayback_snapshots.json"
+    
+
+# Fetch and save snapshots
+fetch_and_save_snapshots(universities, from_year, to_year, output_file)
+
+
+
+
