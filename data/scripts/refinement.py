@@ -1,4 +1,61 @@
 import json
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
+from fuzzywuzzy import fuzz
+import nltk
+
+# Initialize NLTK tools
+nltk.download('punkt')
+nltk.download('wordnet')
+lemmatizer = WordNetLemmatizer()
+
+def preprocess_text(text):
+    """
+    Preprocess text using tokenization and lemmatization.
+
+    Args:
+        text (str): Raw text to preprocess.
+
+    Returns:
+        str: Preprocessed text with lemmatized words.
+    """
+    tokens = word_tokenize(text.lower())
+    return " ".join([lemmatizer.lemmatize(token) for token in tokens])
+
+def fuzzy_match(keyword, content, threshold=80):
+    """
+    Perform fuzzy matching between a keyword and content.
+
+    Args:
+        keyword (str): Keyword to match.
+        content (str): Text content to search.
+        threshold (int): Minimum score for a match.
+
+    Returns:
+        bool: True if match exceeds threshold, False otherwise.
+    """
+    return fuzz.partial_ratio(keyword.lower(), content.lower()) >= threshold
+
+def auto_tag_content(content, categories):
+    """
+    Tag content based on taxonomy keywords using preprocessing and fuzzy matching.
+
+    Args:
+        content (str): The text content to analyze.
+        categories (dict): Dictionary of categories and their associated keywords.
+
+    Returns:
+        list: List of matching categories.
+    """
+    tags = []
+    content_processed = preprocess_text(content)
+    for category, keywords in categories.items():
+        for keyword in keywords:
+            keyword_processed = preprocess_text(keyword)
+            if keyword_processed in content_processed or fuzzy_match(keyword, content_processed):
+                print(f"Matched: '{keyword}' in category '{category}'")
+                tags.append(category)
+    return tags
 
 def load_taxonomy(json_file):
     """
@@ -35,24 +92,6 @@ def load_taxonomy(json_file):
     extract_keywords(taxonomy)
     return keywords_dict
 
-def auto_tag_content(content, categories):
-    """
-    Tag content based on the presence of keywords for each category.
-
-    Args:
-        content (str): The text content to analyze.
-        categories (dict): Dictionary of categories and their associated keywords.
-
-    Returns:
-        list: List of matching categories.
-    """
-    tags = []
-    content_lower = content.lower()
-    for category, keywords in categories.items():
-        if any(keyword.lower() in content_lower for keyword in keywords):
-            tags.append(category)
-    return tags
-
 def label_dataset(input_file, taxonomy_file, output_file):
     """
     Label the dataset using the taxonomy-based keyword matching.
@@ -75,10 +114,11 @@ def label_dataset(input_file, taxonomy_file, output_file):
     # Apply tagging
     labeled_data = []
     for item in data:
+        print(f"Processing URL: {item['url']}")
         tags = auto_tag_content(item["content"], categories)
         item["tags"] = tags
         labeled_data.append(item)
-        print(f"Labeled {item['url']} with tags: {tags}")
+        print(f"Tags: {tags}")
 
     # Save the labeled dataset
     with open(output_file, "w", encoding="utf-8") as f:
@@ -86,9 +126,9 @@ def label_dataset(input_file, taxonomy_file, output_file):
     print(f"Labeled dataset saved to {output_file}")
 
 # File paths
-input_file = "data/processed/cleaned_pages.json"
-taxonomy_file = "data/raw/Open_Science_Taxonomy.json"
-output_file = "data/processed/labeled_pages.json"
+input_file = "data/processed/cleaned_pages.json"  # Path to your cleaned dataset
+taxonomy_file = "data/raw/open_science_taxonomy.json"  # Path to your taxonomy JSON
+output_file = "data/processed/labeled_pages.json"  # Path to save the labeled dataset
 
 # Label the dataset
 label_dataset(input_file, taxonomy_file, output_file)
