@@ -1,7 +1,7 @@
 import json
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
 from fuzzywuzzy import fuzz
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
 import nltk
 
 # Initialize NLTK tools
@@ -53,44 +53,9 @@ def auto_tag_content(content, categories):
         for keyword in keywords:
             keyword_processed = preprocess_text(keyword)
             if keyword_processed in content_processed or fuzzy_match(keyword, content_processed):
-                print(f"Matched: '{keyword}' in category '{category}'")
+                print(f"Matched '{keyword}' in content for category '{category}'")  # Debug print
                 tags.append(category)
     return tags
-
-def load_taxonomy(json_file):
-    """
-    Load the open science taxonomy from a JSON file and return a dictionary of categories and keywords.
-
-    Args:
-        json_file (str): Path to the JSON taxonomy file.
-
-    Returns:
-        dict: A dictionary of categories and their associated keywords.
-    """
-    with open(json_file, "r", encoding="utf-8") as f:
-        taxonomy = json.load(f)
-    keywords_dict = {}
-
-    def extract_keywords(node, parent_category=""):
-        """
-        Recursively extract keywords from the taxonomy nodes.
-
-        Args:
-            node (dict): The current taxonomy node.
-            parent_category (str): The parent category name.
-
-        Returns:
-            None (updates keywords_dict in place).
-        """
-        for category, content in node.items():
-            if "keywords" in content:
-                full_category = f"{parent_category} > {category}" if parent_category else category
-                keywords_dict[full_category] = content["keywords"]
-            if isinstance(content, dict):
-                extract_keywords(content, f"{parent_category} > {category}" if parent_category else category)
-
-    extract_keywords(taxonomy)
-    return keywords_dict
 
 def label_dataset(input_file, taxonomy_file, output_file):
     """
@@ -108,14 +73,19 @@ def label_dataset(input_file, taxonomy_file, output_file):
     with open(input_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Load the taxonomy
-    categories = load_taxonomy(taxonomy_file)
+    # Load the taxonomy dictionary
+    with open(taxonomy_file, "r", encoding="utf-8") as f:
+        categories_keywords = json.load(f)
+
+    # Debug: Print taxonomy structure
+    print("Loaded Categories and Keywords:")
+    print(json.dumps(categories_keywords, indent=4, ensure_ascii=False))
 
     # Apply tagging
     labeled_data = []
     for item in data:
         print(f"Processing URL: {item['url']}")
-        tags = auto_tag_content(item["content"], categories)
+        tags = auto_tag_content(item["content"], categories_keywords)  # Use the dictionary here
         item["tags"] = tags
         labeled_data.append(item)
         print(f"Tags: {tags}")
@@ -127,7 +97,7 @@ def label_dataset(input_file, taxonomy_file, output_file):
 
 # File paths
 input_file = "data/processed/cleaned_pages.json"  # Path to your cleaned dataset
-taxonomy_file = "data/raw/open_science_taxonomy.json"  # Path to your taxonomy JSON
+taxonomy_file = "data/raw/open_science_taxonomy.json"  # Path to your taxonomy dictionary
 output_file = "data/processed/labeled_pages.json"  # Path to save the labeled dataset
 
 # Label the dataset
