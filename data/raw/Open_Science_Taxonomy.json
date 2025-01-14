@@ -1,0 +1,66 @@
+{
+    "Open Science": {
+        "Open access": {
+            "Open access publication": {
+                "keywords": [
+                    "open access books",
+                    "open journals",
+                    "green route"
+                ],
+                "Deposit in repository": {
+                    "keywords": [
+                        "institutional repositories",
+                        "thematic repositories",
+                        "consortium repositories",
+                        "pre-print repositories"
+                    ]
+                }
+            },
+            "Use and re-use of open publications": {
+                "keywords": [
+                    "copyrights",
+                    "open licenses"
+                ]
+            },
+            "Open access initiatives": {
+                "keywords": [
+                    "diamond route",
+                    "APCs"
+                ]
+            }
+        },
+        "Open data": {
+            "Data protection": {
+                "keywords": [
+                    "data privacy",
+                    "GDPR compliance",
+                    "ethical data use"
+                ]
+            },
+            "Open research data": {
+                "FAIR data principles": {
+                    "keywords": [
+                        "findable data",
+                        "accessible data",
+                        "interoperable data",
+                        "reusable data"
+                    ]
+                },
+                "Research data policies": {
+                    "keywords": [
+                        "data policy frameworks",
+                        "institutional data policies",
+                        "funding agency mandates"
+                    ]
+                },
+                "Management of research data": {
+                    "keywords": [
+                        "data management plans",
+                        "DMPs",
+                        "data stewardship"
+                    ]
+                }
+            }
+        }
+    }
+}

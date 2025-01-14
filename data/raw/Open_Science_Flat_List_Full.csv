@@ -1,0 +1,82 @@
+term,parent,keywords
+Open Science,,[]
+Open access,Open Science,[]
+Open access publication,Open access,"['open access books', 'open journals', 'green route']"
+Deposit in repository,Open access publication,"['institutional repositories', 'thematic repositories', 'consortium repositories', 'pre-print repositories']"
+Use and re-use of open publications,Open access,"['copyrights', 'open licenses']"
+Open access initiatives,Open access,"['diamond route', 'APCs']"
+Open data,Open Science,[]
+Data protection,Open data,"['data privacy', 'GDPR compliance', 'ethical data use']"
+Open research data,Open data,[]
+FAIR data principles,Open research data,"['findable data', 'accessible data', 'interoperable data', 'reusable data']"
+Research data policies,Open research data,"['data policy frameworks', 'institutional data policies', 'funding agency mandates']"
+Management of research data,Open research data,"['data management plans', 'DMPs', 'data stewardship']"
+Preservation of research data,Open research data,"['long-term storage', 'data preservation standards', 'archival practices']"
+Data journals,Open research data,"['data articles', 'data publishing platforms']"
+Data repositories,Open research data,"['institutional repositories', 'disciplinary repositories', 'general-purpose repositories']"
+Open administrative/governmental data,Open data,"['public sector data', 'open government initiatives', 'transparency data']"
+Open data initiatives,Open data,"['open data policies', 'data sharing programs', 'open collaboration platforms']"
+Open reproducible research,Open Science,[]
+Ethics and integrity in research,Open reproducible research,"['research ethics', 'scientific integrity']"
+Open and reproducible research,Open reproducible research,[]
+Open laboratory books,Open and reproducible research,"['laboratory notebooks', 'open research documentation']"
+Open Science workflows,Open and reproducible research,"['workflow tools', 'collaborative platforms']"
+Open code/open source software,Open and reproducible research,"['open source', 'software repositories']"
+Guidelines for reproducibility,Open and reproducible research,"['best practices', 'reproducibility guidelines']"
+Reproducibility tests,Open and reproducible research,"['testing frameworks', 'reproducibility checks']"
+Open and responsible research initiatives,Open reproducible research,"['community-driven research', 'open collaborations']"
+Open and responsible evaluation of science,Open Science,[]
+Definition of open evaluation,Open and responsible evaluation of science,"['open peer review', 'evaluation policies']"
+Open peer evaluation,Open and responsible evaluation of science,"['peer review platforms', 'open feedback']"
+Open and responsible metrics,Open and responsible evaluation of science,[]
+Altmetrics,Open and responsible metrics,"['social media impact', 'alternative metrics']"
+Cybermetrics,Open and responsible metrics,"['cyber metrics', 'web analytics']"
+Semantometrics,Open and responsible metrics,"['semantic analysis', 'content quality metrics']"
+Infometrics,Open and responsible metrics,"['information metrics', 'data analysis metrics']"
+Webometrics,Open and responsible metrics,"['web impact', 'website analytics']"
+Open citations,Open and responsible metrics,"['citation databases', 'open citation initiatives']"
+Qualitative and transparent curricular evaluation,Open and responsible evaluation of science,"['curricular assessment', 'qualitative evaluation']"
+Open tools for research evaluation,Open and responsible evaluation of science,"['evaluation software', 'open metrics tools']"
+Open and responsible evaluation initiatives,Open and responsible evaluation of science,"['evaluation projects', 'open assessment']"
+"Policy, declarations, and guidelines of open science",Open Science,[]
+Governmental policies,"Policy, declarations, and guidelines of open science",[]
+Regional policies (countries),Governmental policies,['regional data policies']
+National policies?,Governmental policies,['national data frameworks']
+Institutional policies,"Policy, declarations, and guidelines of open science","['university policies', 'institutional frameworks']"
+Policies of financing agencies,"Policy, declarations, and guidelines of open science","['funding policies', 'research funding guidelines']"
+Open education,Open Science,[]
+Open educational resources,Open education,"['open textbooks', 'online resources']"
+E-learning platforms,Open education,"['online learning', 'educational platforms']"
+Open education initiatives,Open education,"['education reform', 'open learning projects']"
+Open innovation,Open Science,[]
+Types of open innovation,Open innovation,[]
+Makers,Types of open innovation,"['maker communities', 'innovation hubs']"
+Co-creation,Types of open innovation,"['collaborative creation', 'co-design']"
+Crowdsourcing,Types of open innovation,"['public involvement', 'crowdsourcing platforms']"
+Labs,Types of open innovation,"['open labs', 'research spaces']"
+Other forms and spaces,Types of open innovation,['alternative innovation models']
+Open research initiatives,Open innovation,"['open research programs', 'collaborative projects']"
+Open Science infrastructure and tools,Open Science,[]
+Open code repositories,Open Science infrastructure and tools,"['code hosting', 'repository tools']"
+Open services providers,Open Science infrastructure and tools,"['service platforms', 'provider tools']"
+Collectors / Compilers / Harvesters,Open Science infrastructure and tools,"['data collectors', 'harvesting tools']"
+Open collaborative platforms,Open Science infrastructure and tools,"['teamwork tools', 'collaboration software']"
+Open teams,Open Science infrastructure and tools,"['team collaboration', 'open teams']"
+Open Science platforms,Open Science infrastructure and tools,['platforms for open science']
+Federated infrastructure,Open Science infrastructure and tools,"['federated systems', 'shared infrastructure']"
+Open workflow tools,Open Science infrastructure and tools,"['workflow management', 'workflow tools']"
+Open infrastructure initiatives,Open Science infrastructure and tools,"['infrastructure projects', 'open frameworks']"
+Digital preservation in Open Science,Open Science infrastructure and tools,[]
+Data integrity,Digital preservation in Open Science,"['data accuracy', 'data consistency']"
+Digital preservation systems and tools,Digital preservation in Open Science,"['archival tools', 'preservation frameworks']"
+Interoperability protocols and guidelines,Open Science infrastructure and tools,"['standards for interoperability', 'protocols for data sharing']"
+"Citizen science, open and participative",Open Science,[]
+Citizen laboratory,"Citizen science, open and participative","['citizen labs', 'community research']"
+Scientific dissemination,"Citizen science, open and participative","['public science communication', 'scientific outreach']"
+Collaboration networks,"Citizen science, open and participative","['research networks', 'collaboration tools']"
+Distributed computing,"Citizen science, open and participative","['distributed systems', 'computational networks']"
+Citizen science initiatives,"Citizen science, open and participative","['participatory research', 'citizen-driven science']"
+Open dialogue with other knowledge systems,Open Science,[]
+"CARE Principle (collective benefit, authority to control, responsibility, ethics)",Open dialogue with other knowledge systems,"['indigenous knowledge', 'collective benefits']"
+Cultural diversity,Open dialogue with other knowledge systems,"['multiculturalism', 'diverse knowledge systems']"
+Equity,Open dialogue with other knowledge systems,"['fair access', 'equal opportunities']"
