@@ -84,3 +84,82 @@ This document explains the rationale behind the chosen approach to integrating t
 2. **NLP Refinement**:
    - Apply semantic similarity to refine taxonomy-based tags.
    - Use topic modeling to explore additional patterns and validate taxonomy coverage.
+
+---
+
+## Process: Taxonomy-Based Tagging
+
+### **1. Initial Setup**
+- The taxonomy was provided as a JSON file (`Open_Science_Taxonomy.json`), containing categories and associated keywords.
+- A cleaned dataset of webpage content (`cleaned_pages.json`) was prepared in a previous step.
+
+### **2. Transforming Taxonomy**
+- The taxonomy JSON file was parsed into a Python dictionary (`categories_keywords`) containing categories and their keywords.
+
+Example:
+```json
+{
+    "Open Science > Open Access": [
+        "open access",
+        "OA",
+        "free publications"
+    ],
+    "Open Science > Open Data": [
+        "data sharing",
+        "open datasets"
+    ]
+}
+```
+
+This step ensures the taxonomy is structured for efficient keyword matching.
+
+### **3. Matching Logic**
+The following enhancements were added to ensure robust tagging:
+
+1. **Keyword Preprocessing**:
+   - Text preprocessing (lowercasing, tokenization, and lemmatization) ensures that variations like "publishing" and "publish" match correctly.
+
+2. **Fuzzy Matching**:
+   - Approximate matches (e.g., "open-acess" vs. "open access") were handled using fuzzy matching with a configurable threshold.
+
+3. **Combination**:
+   - Both exact and fuzzy matching were applied for each keyword in the taxonomy.
+
+### **4. Tagging Pipeline**
+- The `auto_tag_content` function applies the taxonomy to each content item in the dataset, generating tags for matching categories.
+- Example:
+
+```python
+sample_content = "Open science supports open access to research publications and data."
+tags = auto_tag_content(sample_content, categories_keywords)
+print(f"Tags: {tags}")
+```
+
+### **5. Output**
+- The tagged dataset is saved as `labeled_pages.json`, containing the original content and the matched tags.
+- Example:
+
+```json
+[
+    {
+        "university": "Università degli Studi dell'Aquila",
+        "url": "https://www.univaq.it/section.php?id=2265",
+        "content": "Open science promotes transparency and accessibility in research...",
+        "tags": [
+            "Open Science > Open Access",
+            "Open Science > Open Data"
+        ]
+    }
+]
+```
+
+---
+
+## Next Steps
+1. **Validate Tags**:
+   - Manually review samples to ensure tags are accurate and meaningful.
+2. **Refine Taxonomy**:
+   - Expand keywords or adjust fuzzy matching thresholds as needed.
+3. **Proceed to NLP Refinement**:
+   - Use Sentence-BERT or topic modeling for further analysis.
+
