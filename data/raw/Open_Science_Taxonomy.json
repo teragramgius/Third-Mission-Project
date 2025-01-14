@@ -1,370 +1,266 @@
 {
-    "Scienza Aperta": {
-        "Accesso aperto": {
-            "Pubblicazione ad accesso aperto": {
-                "parole chiave": [
-                    "libri ad accesso aperto",
-                    "riviste ad accesso aperto",
-                    "percorso verde"
-                ],
-                "Deposito nel repository": {
-                    "parole chiave": [
-                        "repository istituzionali",
-                        "repository tematici",
-                        "repository consorziali",
-                        "repository di pre-stampa"
-                    ]
-                }
-            },
-            "Uso e riutilizzo delle pubblicazioni aperte": {
-                "parole chiave": [
-                    "diritti d'autore",
-                    "licenze aperte"
-                ]
-            },
-            "Iniziative di accesso aperto": {
-                "parole chiave": [
-                    "percorso diamante",
-                    "APCs (costi di pubblicazione)"
-                ]
-            }
-        },
-        "Dati aperti": {
-            "Protezione dei dati": {
-                "parole chiave": [
-                    "privacy dei dati",
-                    "conformità GDPR",
-                    "uso etico dei dati"
-                ]
-            },
-            "Dati di ricerca aperti": {
-                "Principi FAIR per i dati": {
-                    "parole chiave": [
-                        "dati trovabili",
-                        "dati accessibili",
-                        "dati interoperabili",
-                        "dati riutilizzabili"
-                    ]
-                },
-                "Politiche sui dati di ricerca": {
-                    "parole chiave": [
-                        "quadri politici sui dati",
-                        "politiche istituzionali sui dati",
-                        "mandati delle agenzie di finanziamento"
-                    ]
-                },
-                "Gestione dei dati di ricerca": {
-                    "parole chiave": [
-                        "piani di gestione dei dati",
-                        "DMPs",
-                        "gestione responsabile dei dati"
-                    ]
-                },
-                "Preservazione dei dati di ricerca": {
-                    "parole chiave": [
-                        "conservazione a lungo termine",
-                        "standard di conservazione dei dati",
-                        "pratiche archivistiche"
-                    ]
-                },
-                "Giornali dei dati": {
-                    "parole chiave": [
-                        "articoli sui dati",
-                        "piattaforme di pubblicazione dei dati"
-                    ]
-                },
-                "Archivi dei dati": {
-                    "parole chiave": [
-                        "archivi istituzionali",
-                        "archivi disciplinari",
-                        "archivi ad uso generale"
-                    ]
-                }
-            },
-            "Dati amministrativi/governativi aperti": {
-                "parole chiave": [
-                    "dati del settore pubblico",
-                    "iniziative di governo aperto",
-                    "dati di trasparenza"
-                ]
-            },
-            "Iniziative sui dati aperti": {
-                "parole chiave": [
-                    "politiche sui dati aperti",
-                    "programmi di condivisione dei dati",
-                    "piattaforme di collaborazione aperta"
-                ]
-            }
-        },
-        "Ricerca aperta e riproducibile": {
-            "Etica e integrità nella ricerca": {
-                "parole chiave": [
-                    "etica della ricerca",
-                    "integrità scientifica"
-                ]
-            },
-            "Ricerca aperta e riproducibile": {
-                "Laboratori aperti": {
-                    "parole chiave": [
-                        "notebook di laboratorio",
-                        "documentazione della ricerca aperta"
-                    ]
-                },
-                "Flussi di lavoro della Scienza Aperta": {
-                    "parole chiave": [
-                        "strumenti di flusso di lavoro",
-                        "piattaforme collaborative"
-                    ]
-                },
-                "Codice aperto/software open source": {
-                    "parole chiave": [
-                        "open source",
-                        "repository di software"
-                    ]
-                },
-                "Linee guida per la riproducibilità": {
-                    "parole chiave": [
-                        "migliori pratiche",
-                        "linee guida sulla riproducibilità"
-                    ]
-                },
-                "Test di riproducibilità": {
-                    "parole chiave": [
-                        "framework di test",
-                        "verifiche di riproducibilità"
-                    ]
-                }
-            },
-            "Iniziative di ricerca aperta e responsabile": {
-                "parole chiave": [
-                    "ricerca guidata dalla comunità",
-                    "collaborazioni aperte"
-                ]
-            }
-        },
-        "Valutazione aperta e responsabile della scienza": {
-            "Definizione di valutazione aperta": {
-                "parole chiave": [
-                    "peer review aperto",
-                    "politiche di valutazione"
-                ]
-            },
-            "Valutazione peer aperta": {
-                "parole chiave": [
-                    "piattaforme di peer review",
-                    "feedback aperto"
-                ]
-            },
-            "Metriche aperte e responsabili": {
-                "Altmetrics": {
-                    "parole chiave": [
-                        "impatto sui social media",
-                        "metriche alternative"
-                    ]
-                },
-                "Cybermetrics": {
-                    "parole chiave": [
-                        "metriche cyber",
-                        "analisi web"
-                    ]
-                },
-                "Semantometrics": {
-                    "parole chiave": [
-                        "analisi semantica",
-                        "metriche di qualità dei contenuti"
-                    ]
-                },
-                "Infometrics": {
-                    "parole chiave": [
-                        "metriche informative",
-                        "metriche di analisi dei dati"
-                    ]
-                },
-                "Webometrics": {
-                    "parole chiave": [
-                        "impatto web",
-                        "analitiche dei siti web"
-                    ]
-                },
-                "Citazioni aperte": {
-                    "parole chiave": [
-                        "banche dati delle citazioni",
-                        "iniziative di citazioni aperte"
-                    ]
-                }
-            },
-            "Valutazione curriculare qualitativa e trasparente": {
-                "parole chiave": [
-                    "valutazione curriculare",
-                    "valutazione qualitativa"
-                ]
-            },
-            "Strumenti aperti per la valutazione della ricerca": {
-                "parole chiave": [
-                    "software di valutazione",
-                    "strumenti di metriche aperte"
-                ]
-            },
-            "Iniziative di valutazione aperta e responsabile": {
-                "parole chiave": [
-                    "progetti di valutazione",
-                    "valutazione aperta"
-                ]
-            }
-        },
-        "Politiche, dichiarazioni e linee guida della Scienza Aperta": {
-            "Politiche governative": {
-                "Politiche regionali (paesi)": {
-                    "parole chiave": [
-                        "politiche regionali sui dati"
-                    ]
-                },
-                "Politiche nazionali?": {
-                    "parole chiave": [
-                        "quadri normativi nazionali"
-                    ]
-                }
-            },
-            "Politiche istituzionali": {
-                "parole chiave": [
-                    "politiche universitarie",
-                    "quadri istituzionali"
-                ]
-            },
-            "Politiche delle agenzie di finanziamento": {
-                "parole chiave": [
-                    "politiche di finanziamento",
-                    "linee guida per il finanziamento della ricerca"
-                ]
-            }
-        },
-        "Educazione aperta": {
-            "Risorse educative aperte": {
-                "parole chiave": [
-                    "libri di testo aperti",
-                    "risorse online"
-                ]
-            },
-            "Piattaforme di e-learning": {
-                "parole chiave": [
-                    "apprendimento online",
-                    "piattaforme educative"
-                ]
-            },
-            "Iniziative di educazione aperta": {
-                "parole chiave": [
-                    "riforma dell'educazione",
-                    "progetti di apprendimento aperto"
-                ]
-            }
-        },
-        "Innovazione aperta": {
-            "Tipi di innovazione aperta": {
-                "Makers": {
-                    "parole chiave": [
-                        "comunità di maker",
-                        "hub di innovazione"
-                    ]
-                },
-                "Co-creazione": {
-                    "parole chiave": [
-                        "creazione collaborativa",
-                        "co-design"
-                    ]
-                },
-                "Crowdsourcing": {
-                    "parole chiave": [
-                        "coinvolgimento pubblico",
-                        "piattaforme di crowdsourcing"
-                    ]
-                },
-                "Laboratori": {
-                    "parole chiave": [
-                        "laboratori aperti",
-                        "spazi di ricerca"
-                    ]
-                },
-                "Altre forme e spazi": {
-                    "parole chiave": [
-                        "modelli di innovazione alternativi"
-                    ]
-                }
-            },
-            "Iniziative di ricerca aperta": {
-                "parole chiave": [
-                    "programmi di ricerca aperta",
-                    "progetti collaborativi"
-                ]
-            }
-        },
-        "Infrastruttura e strumenti della Scienza Aperta": {
-            "Repository di codice aperto": {
-                "parole chiave": ["hosting del codice", "strumenti per repository"]
-            },
-            "Fornitori di servizi aperti": {
-                "parole chiave": ["piattaforme di servizio", "strumenti per i fornitori"]
-            },
-            "Raccoglitori / Compilatori / Harvesters": {
-                "parole chiave": ["raccoglitori di dati", "strumenti di harvesting"]
-            },
-            "Piattaforme collaborative aperte": {
-                "parole chiave": ["strumenti di collaborazione", "software per la collaborazione"]
-            },
-            "Team aperti": {
-                "parole chiave": ["collaborazione del team", "team aperti"]
-            },
-            "Piattaforme di Scienza Aperta": {
-                "parole chiave": ["piattaforme per la Scienza Aperta"]
-            },
-            "Infrastruttura federata": {
-                "parole chiave": ["sistemi federati", "infrastruttura condivisa"]
-            },
-            "Strumenti di flusso di lavoro aperti": {
-                "parole chiave": ["gestione del flusso di lavoro", "strumenti di flusso di lavoro"]
-            },
-            "Iniziative infrastrutturali aperte": {
-                "parole chiave": ["progetti infrastrutturali", "framework aperti"]
-            },
-            "Preservazione digitale nella Scienza Aperta": {
-                "Integrità dei dati": {
-                    "parole chiave": ["accuratezza dei dati", "coerenza dei dati"]
-                },
-                "Sistemi e strumenti di preservazione digitale": {
-                    "parole chiave": ["strumenti di archiviazione", "framework di preservazione"]
-                }
-            },
-            "Protocolli e linee guida per l'interoperabilità": {
-                "parole chiave": ["standard per l'interoperabilità", "protocolli per la condivisione dei dati"]
-            }
-        },
-        "Scienza cittadina, aperta e partecipativa": {
-            "Laboratorio cittadino": {
-                "parole chiave": ["laboratori cittadini", "ricerca comunitaria"]
-            },
-            "Disseminazione scientifica": {
-                "parole chiave": ["comunicazione pubblica della scienza", "divulgazione scientifica"]
-            },
-            "Reti di collaborazione": {
-                "parole chiave": ["reti di ricerca", "strumenti di collaborazione"]
-            },
-            "Calcolo distribuito": {
-                "parole chiave": ["sistemi distribuiti", "reti computazionali"]
-            },
-            "Iniziative di scienza cittadina": {
-                "parole chiave": ["ricerca partecipativa", "scienza guidata dai cittadini"]
-            }
-        },
-        "Dialogo aperto con altri sistemi di conoscenza": {
-            "Principio CARE (beneficio collettivo, autorità di controllo, responsabilità, etica)": {
-                "parole chiave": ["conoscenza indigena", "benefici collettivi"]
-            },
-            "Diversità culturale": {
-                "parole chiave": ["multiculturalismo", "sistemi di conoscenza diversificati"]
-            },
-            "Equità": {
-                "parole chiave": ["accesso equo", "pari opportunità"]
-            }
-        }
-    }
+    "Scienza Aperta > Accesso aperto > Pubblicazione ad accesso aperto": [
+        "libri ad accesso aperto",
+        "riviste ad accesso aperto",
+        "percorso verde"
+    ],
+    "Scienza Aperta > Accesso aperto > Pubblicazione ad accesso aperto > Deposito nel repository": [       
+        "repository istituzionali",
+        "repository tematici",
+        "repository consorziali",
+        "repository di pre-stampa"
+    ],
+    "Scienza Aperta > Accesso aperto > Uso e riutilizzo delle pubblicazioni aperte": [
+        "diritti d'autore",
+        "licenze aperte"
+    ],
+    "Scienza Aperta > Accesso aperto > Iniziative di accesso aperto": [
+        "percorso diamante",
+        "APCs (costi di pubblicazione)"
+    ],
+    "Scienza Aperta > Dati aperti > Protezione dei dati": [
+        "privacy dei dati",
+        "conformità GDPR",
+        "uso etico dei dati"
+    ],
+    "Scienza Aperta > Dati aperti > Dati di ricerca aperti > Principi FAIR per i dati": [
+        "dati trovabili",
+        "dati accessibili",
+        "dati interoperabili",
+        "dati riutilizzabili"
+    ],
+    "Scienza Aperta > Dati aperti > Dati di ricerca aperti > Politiche sui dati di ricerca": [
+        "quadri politici sui dati",
+        "politiche istituzionali sui dati",
+        "mandati delle agenzie di finanziamento"
+    ],
+    "Scienza Aperta > Dati aperti > Dati di ricerca aperti > Gestione dei dati di ricerca": [
+        "piani di gestione dei dati",
+        "DMPs",
+        "gestione responsabile dei dati"
+    ],
+    "Scienza Aperta > Dati aperti > Dati di ricerca aperti > Preservazione dei dati di ricerca": [
+        "conservazione a lungo termine",
+        "standard di conservazione dei dati",
+        "pratiche archivistiche"
+    ],
+    "Scienza Aperta > Dati aperti > Dati di ricerca aperti > Giornali dei dati": [
+        "articoli sui dati",
+        "piattaforme di pubblicazione dei dati"
+    ],
+    "Scienza Aperta > Dati aperti > Dati di ricerca aperti > Archivi dei dati": [
+        "archivi istituzionali",
+        "archivi disciplinari",
+        "archivi ad uso generale"
+    ],
+    "Scienza Aperta > Dati aperti > Dati amministrativi/governativi aperti": [
+        "dati del settore pubblico",
+        "iniziative di governo aperto",
+        "dati di trasparenza"
+    ],
+    "Scienza Aperta > Dati aperti > Iniziative sui dati aperti": [
+        "politiche sui dati aperti",
+        "programmi di condivisione dei dati",
+        "piattaforme di collaborazione aperta"
+    ],
+    "Scienza Aperta > Ricerca aperta e riproducibile > Etica e integrità nella ricerca": [
+        "etica della ricerca",
+        "integrità scientifica"
+    ],
+    "Scienza Aperta > Ricerca aperta e riproducibile > Ricerca aperta e riproducibile > Laboratori aperti": [
+        "notebook di laboratorio",
+        "documentazione della ricerca aperta"
+    ],
+    "Scienza Aperta > Ricerca aperta e riproducibile > Ricerca aperta e riproducibile > Flussi di lavoro della Scienza Aperta": [
+        "strumenti di flusso di lavoro",
+        "piattaforme collaborative"
+    ],
+    "Scienza Aperta > Ricerca aperta e riproducibile > Ricerca aperta e riproducibile > Codice aperto/software open source": [
+        "open source",
+        "repository di software"
+    ],
+    "Scienza Aperta > Ricerca aperta e riproducibile > Ricerca aperta e riproducibile > Linee guida per la riproducibilità": [
+        "migliori pratiche",
+        "linee guida sulla riproducibilità"
+    ],
+    "Scienza Aperta > Ricerca aperta e riproducibile > Ricerca aperta e riproducibile > Test di riproducibilità": [
+        "framework di test",
+        "verifiche di riproducibilità"
+    ],
+    "Scienza Aperta > Ricerca aperta e riproducibile > Iniziative di ricerca aperta e responsabile": [     
+        "ricerca guidata dalla comunità",
+        "collaborazioni aperte"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Definizione di valutazione aperta": [
+        "peer review aperto",
+        "politiche di valutazione"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Valutazione peer aperta": [        
+        "piattaforme di peer review",
+        "feedback aperto"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Metriche aperte e responsabili > Altmetrics": [
+        "impatto sui social media",
+        "metriche alternative"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Metriche aperte e responsabili > Cybermetrics": [
+        "metriche cyber",
+        "analisi web"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Metriche aperte e responsabili > Semantometrics": [
+        "analisi semantica",
+        "metriche di qualità dei contenuti"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Metriche aperte e responsabili > Infometrics": [
+        "metriche informative",
+        "metriche di analisi dei dati"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Metriche aperte e responsabili > Webometrics": [
+        "impatto web",
+        "analitiche dei siti web"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Metriche aperte e responsabili > Citazioni aperte": [
+        "banche dati delle citazioni",
+        "iniziative di citazioni aperte"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Valutazione curriculare qualitativa e trasparente": [
+        "valutazione curriculare",
+        "valutazione qualitativa"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Strumenti aperti per la valutazione della ricerca": [
+        "software di valutazione",
+        "strumenti di metriche aperte"
+    ],
+    "Scienza Aperta > Valutazione aperta e responsabile della scienza > Iniziative di valutazione aperta e responsabile": [
+        "progetti di valutazione",
+        "valutazione aperta"
+    ],
+    "Scienza Aperta > Politiche, dichiarazioni e linee guida della Scienza Aperta > Politiche governative > Politiche regionali (paesi)": [
+        "politiche regionali sui dati"
+    ],
+    "Scienza Aperta > Politiche, dichiarazioni e linee guida della Scienza Aperta > Politiche governative > Politiche nazionali?": [
+        "quadri normativi nazionali"
+    ],
+    "Scienza Aperta > Politiche, dichiarazioni e linee guida della Scienza Aperta > Politiche istituzionali": [
+        "politiche universitarie",
+        "quadri istituzionali"
+    ],
+    "Scienza Aperta > Politiche, dichiarazioni e linee guida della Scienza Aperta > Politiche delle agenzie di finanziamento": [
+        "politiche di finanziamento",
+        "linee guida per il finanziamento della ricerca"
+    ],
+    "Scienza Aperta > Educazione aperta > Risorse educative aperte": [
+        "libri di testo aperti",
+        "risorse online"
+    ],
+    "Scienza Aperta > Educazione aperta > Piattaforme di e-learning": [
+        "apprendimento online",
+        "piattaforme educative"
+    ],
+    "Scienza Aperta > Educazione aperta > Iniziative di educazione aperta": [
+        "riforma dell'educazione",
+        "progetti di apprendimento aperto"
+    ],
+    "Scienza Aperta > Innovazione aperta > Tipi di innovazione aperta > Makers": [
+        "comunità di maker",
+        "hub di innovazione"
+    ],
+    "Scienza Aperta > Innovazione aperta > Tipi di innovazione aperta > Co-creazione": [
+        "creazione collaborativa",
+        "co-design"
+    ],
+    "Scienza Aperta > Innovazione aperta > Tipi di innovazione aperta > Crowdsourcing": [
+        "coinvolgimento pubblico",
+        "piattaforme di crowdsourcing"
+    ],
+    "Scienza Aperta > Innovazione aperta > Tipi di innovazione aperta > Laboratori": [
+        "laboratori aperti",
+        "spazi di ricerca"
+    ],
+    "Scienza Aperta > Innovazione aperta > Tipi di innovazione aperta > Altre forme e spazi": [
+        "modelli di innovazione alternativi"
+    ],
+    "Scienza Aperta > Innovazione aperta > Iniziative di ricerca aperta": [
+        "programmi di ricerca aperta",
+        "progetti collaborativi"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Repository di codice aperto": [    
+        "hosting del codice",
+        "strumenti per repository"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Fornitori di servizi aperti": [    
+        "piattaforme di servizio",
+        "strumenti per i fornitori"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Raccoglitori / Compilatori / Harvesters": [
+        "raccoglitori di dati",
+        "strumenti di harvesting"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Piattaforme collaborative aperte": [
+        "strumenti di collaborazione",
+        "software per la collaborazione"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Team aperti": [
+        "collaborazione del team",
+        "team aperti"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Piattaforme di Scienza Aperta": [  
+        "piattaforme per la Scienza Aperta"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Infrastruttura federata": [        
+        "sistemi federati",
+        "infrastruttura condivisa"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Strumenti di flusso di lavoro aperti": [
+        "gestione del flusso di lavoro",
+        "strumenti di flusso di lavoro"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Iniziative infrastrutturali aperte": [
+        "progetti infrastrutturali",
+        "framework aperti"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Preservazione digitale nella Scienza Aperta > Integrità dei dati": [
+        "accuratezza dei dati",
+        "coerenza dei dati"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Preservazione digitale nella Scienza Aperta > Sistemi e strumenti di preservazione digitale": [
+        "strumenti di archiviazione",
+        "framework di preservazione"
+    ],
+    "Scienza Aperta > Infrastruttura e strumenti della Scienza Aperta > Protocolli e linee guida per l'interoperabilità": [
+        "standard per l'interoperabilità",
+        "protocolli per la condivisione dei dati"
+    ],
+    "Scienza Aperta > Scienza cittadina, aperta e partecipativa > Laboratorio cittadino": [
+        "laboratori cittadini",
+        "ricerca comunitaria"
+    ],
+    "Scienza Aperta > Scienza cittadina, aperta e partecipativa > Disseminazione scientifica": [
+        "comunicazione pubblica della scienza",
+        "divulgazione scientifica"
+    ],
+    "Scienza Aperta > Scienza cittadina, aperta e partecipativa > Reti di collaborazione": [
+        "reti di ricerca",
+        "strumenti di collaborazione"
+    ],
+    "Scienza Aperta > Scienza cittadina, aperta e partecipativa > Calcolo distribuito": [
+        "sistemi distribuiti",
+        "reti computazionali"
+    ],
+    "Scienza Aperta > Scienza cittadina, aperta e partecipativa > Iniziative di scienza cittadina": [      
+        "ricerca partecipativa",
+        "scienza guidata dai cittadini"
+    ],
+    "Scienza Aperta > Dialogo aperto con altri sistemi di conoscenza > Principio CARE (beneficio collettivo, autorità di controllo, responsabilità, etica)": [
+        "conoscenza indigena",
+        "benefici collettivi"
+    ],
+    "Scienza Aperta > Dialogo aperto con altri sistemi di conoscenza > Diversità culturale": [
+        "multiculturalismo",
+        "sistemi di conoscenza diversificati"
+    ],
+    "Scienza Aperta > Dialogo aperto con altri sistemi di conoscenza > Equità": [
+        "accesso equo",
+        "pari opportunità"
+    ]
 }
-    
