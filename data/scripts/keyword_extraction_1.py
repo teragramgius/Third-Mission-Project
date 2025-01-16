@@ -1,23 +1,17 @@
 import json
 from rake_nltk import Rake
 import nltk
-
-# Download required NLTK data
-import json
-from rake_nltk import Rake
-import nltk
+from nltk.corpus import stopwords
 
 # Download required NLTK resources
-nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('stopwords')
 
+# Load Italian stopwords
+stop_words = set(stopwords.words('italian'))
+
 # Initialize RAKE with NLTK stopwords
-rake = Rake()
-
-
-# Initialize RAKE with NLTK
-rake = Rake()
+rake = Rake(stopwords=stop_words)
 
 def extract_keywords(content):
     """
@@ -30,7 +24,10 @@ def extract_keywords(content):
         list: A list of extracted keywords, sorted by relevance.
     """
     rake.extract_keywords_from_text(content)
-    return rake.get_ranked_phrases()
+    keywords = rake.get_ranked_phrases()
+    # Filter out short words and irrelevant phrases
+    keywords = [kw for kw in keywords if len(kw.split()) > 1 and not any(word in stop_words for word in kw.split())]
+    return keywords
 
 def process_content(input_file, output_file):
     """
