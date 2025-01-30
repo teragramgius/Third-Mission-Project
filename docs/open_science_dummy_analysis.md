@@ -10,8 +10,7 @@ The dummy variable `has_open_science_page` is a binary indicator that helps iden
 
 ## 2. Methods for Creating the Dummy Variable
 ### **Logic for Identification**
-The dummy variable is created by checking if the university’s webpage URL contains specific keywords:
-- **Keywords:** `open-science`, `scienza-aperta`, `openaccess`, `ricerca-aperta`.
+The dummy variable is created by checking if the university’s webpage URL contains specific keywords, visible in the data folder.
 - **Value:**
   - `1` if the link contains any of these keywords.
   - `0` otherwise.
